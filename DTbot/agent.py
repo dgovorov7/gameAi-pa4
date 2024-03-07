@@ -9,7 +9,7 @@ import numpy as np
 
 import functools
 
-MODEL_PATH = "./DTbot/checkpoint-10000"
+MODEL_PATH = "./DTbot/model-4"
 
 
 def flatten_dict_of_arrays(data, prefix=""):
