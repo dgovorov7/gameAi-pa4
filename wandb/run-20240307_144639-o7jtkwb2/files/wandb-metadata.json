@@ -1,0 +1,36 @@
+{
+    "os": "macOS-13.6.3-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-03-07T19:46:39.647150",
+    "startedAt": "2024-03-07T19:46:39.284097",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/dgovorov7/gameAi-pa4.git",
+        "commit": "df15b92f17e520c95ade504c97873f252782d41a"
+    },
+    "email": "89414419+dgovorov7@users.noreply.github.com",
+    "root": "/Users/den/Documents/CS/classwork/4900/gameAi-pa4",
+    "host": "dens-MacBook-Pro.local",
+    "username": "den",
+    "executable": "/usr/local/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 14.646678924560547
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

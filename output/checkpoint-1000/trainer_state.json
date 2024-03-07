@@ -9,19 +9,19 @@
   "log_history": [
     {
       "epoch": 31.25,
-      "learning_rate": 9.375e-05,
-      "loss": 0.1896,
+      "learning_rate": 6.25e-05,
+      "loss": 0.0629,
       "step": 500
     },
     {
       "epoch": 62.5,
-      "learning_rate": 7.638888888888889e-05,
-      "loss": 0.1865,
+      "learning_rate": 9.722222222222223e-05,
+      "loss": 0.0004,
       "step": 1000
     }
   ],
-  "max_steps": 3200,
-  "num_train_epochs": 200,
+  "max_steps": 8000,
+  "num_train_epochs": 500,
   "total_flos": 90337891545600.0,
   "trial_name": null,
   "trial_params": null

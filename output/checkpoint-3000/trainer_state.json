@@ -9,43 +9,43 @@
   "log_history": [
     {
       "epoch": 31.25,
-      "learning_rate": 9.375e-05,
-      "loss": 0.1896,
+      "learning_rate": 6.25e-05,
+      "loss": 0.0629,
       "step": 500
     },
     {
       "epoch": 62.5,
-      "learning_rate": 7.638888888888889e-05,
-      "loss": 0.1865,
+      "learning_rate": 9.722222222222223e-05,
+      "loss": 0.0004,
       "step": 1000
     },
     {
       "epoch": 93.75,
-      "learning_rate": 5.902777777777778e-05,
-      "loss": 0.1849,
+      "learning_rate": 9.027777777777779e-05,
+      "loss": 0.0002,
       "step": 1500
     },
     {
       "epoch": 125.0,
-      "learning_rate": 4.166666666666667e-05,
-      "loss": 0.1828,
+      "learning_rate": 8.333333333333334e-05,
+      "loss": 0.0001,
       "step": 2000
     },
     {
       "epoch": 156.25,
-      "learning_rate": 2.4305555555555558e-05,
-      "loss": 0.181,
+      "learning_rate": 7.638888888888889e-05,
+      "loss": 0.0,
       "step": 2500
     },
     {
       "epoch": 187.5,
-      "learning_rate": 6.944444444444445e-06,
-      "loss": 0.1794,
+      "learning_rate": 6.944444444444444e-05,
+      "loss": 0.0,
       "step": 3000
     }
   ],
-  "max_steps": 3200,
-  "num_train_epochs": 200,
+  "max_steps": 8000,
+  "num_train_epochs": 500,
   "total_flos": 270978991545600.0,
   "trial_name": null,
   "trial_params": null
