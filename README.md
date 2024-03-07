@@ -11,7 +11,7 @@ Alot of my implemenation feels very hacky, be it because huggingface's libraries
 
 On top of entity-gym the following two libraries are necessary ``` transformers pytorch ```
 
-The DTbot folder should have everything needed to run the agent for the tournament runner
+The DTbot folder should have everything needed to run the agent for the tournament runner, but the ```MODEL_PATH``` variable inside agent.py may need to be changed
 
 The following code sets up the environment and runs DTbot against a rush opponent:
 
