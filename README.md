@@ -26,6 +26,8 @@ python test_agent.py
 
 ### Training DTbot
 
-Needs a lot of work: much of is currently in trainingPlayground.ipynb
+Needs a lot of work, much of is currently in trainingPlayground.ipynb
 
-[wandb run](https://wandb.ai/dgovorov7/VectorRTS-transformer/runs/iynzvft8?workspace=user-dgovorov7) as states before huggingface's transformer trainer library is not made with reinforcement learning in mind so getting an evaluation during training is tricky
+The training works by first generating a dataset of games, logging every observation, action, and reward for each game state. This dataset is then feed into huggingface's trainer library which trains the decision transfomer. The current model uses a dataset of 1000 games of a random bot vs a rush bot. The current preformance of the bot is very poor, but it hopfully can be improved by using a better dataset (possibly using someones ENN implementation) as by nature transformers are an imitation learning algorithm.
+
+[wandb run](https://wandb.ai/dgovorov7/VectorRTS-transformer/runs/iynzvft8?workspace=user-dgovorov7) as stated before huggingface's transformer trainer library is not made with reinforcement learning in mind so getting an evaluation during training is tricky
