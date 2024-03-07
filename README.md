@@ -11,9 +11,9 @@ Alot of my implemenation feels very hacky, be it because huggingface's libraries
 
 On top of entity-gym the following two libraries are necessary ``` transformers pytorch ```
 
-The following code sets up the environment and runs DTbot against a rush opponent
-
 The DTbot folder should have everything needed to run the agent for the tournament runner
+
+The following code sets up the environment and runs DTbot against a rush opponent:
 
 ```
 conda create -n huggingface python=3.8  
